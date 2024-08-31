@@ -1,242 +1,313 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="./Images/logo2.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food Adda | Home</title>
 </head>
+
 <body>
+    <div class="main-container">
 
-    <header>
-        <div class="header">
-            <div class="background-overlay"></div>
-
-            <div class="headerbar">
-                <div class="account">
-                    <ul>
-                        <a href="">
-                            <li><i class="fa-solid fa-house-chimney"></i></li>
-                        </a>
-                        <a href="#">
-                            <li><i class="fa-solid fa-magnifying-glass searchicon" id="searchicon1"></i></li>
-                        </a>
-                        <div class="search" id="searchinput1">
-                            <input type="search" placeholder="Type something...">
-                            <i class="fa-solid fa-magnifying-glass srchicon"></i>
-                        </div>
-                        <a class="">
-                            <li><i class="fa-solid fa-user user_icon" id="user-mb"></i></li>
-                        </a>
-                    </ul>
-                </div> 
+        <header class="main-header" >
+            <div class="header">
+                <div class="headerbar">
+                    <div class="account">
+                        <ul>
+                            <li>
+                                <a title="hourse chimney icon" href="">
+                                    <i class="fa-solid fa-house-chimney"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a title="search icon" href="#">
+                                    <i class="fa-solid fa-magnifying-glass searchicon" id="searchicon1"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <div class="search" id="searchinput1">
+                                    <input type="search" placeholder="Type something...">
+                                    <i class="fa-solid fa-magnifying-glass srchicon"></i>
+                                </div>
+                            </li>
+                            <li>
+                                <a class="">
+                                    <i class="fa-solid fa-user user_icon" id="user-mb"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="nav">
+                        <ul>
+                            <li>
+                                <a href="">
+                                    HOME
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    MENU
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    BOOK TABLE
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    ABOUT
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    CONTACT US
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="logo"><img src="./Images/logo_final.png" alt="Logo"></div>
+                <div class="bar">
+                    <i class="fa-solid fa-bars"></i>
+                    <i class="fa-solid fa-xmark" id="hdcross"></i>
+                </div>
                 <div class="nav">
                     <ul>
-                        <a href=""><li>HOME</li></a>
-                        <a href=""><li>MENU</li></a>
-                        <a href=""><li>BOOK TABLE</li></a>
-                        <a href=""><li>ABOUT</li></a>
-                        <a href=""><li>CONTACT US</li></a>
+                        <a href="#">
+                            <li>HOME</li>
+                        </a>
+                        <a href="#">
+                            <li>MENU</li>
+                        </a>
+                        <a href="#">
+                            <li>BOOK TABLE</li>
+                        </a>
+                        <a href="#">
+                            <li>ABOUT</li>
+                        </a>
+                        <a href="#">
+                            <li>CONTACT US</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="account">
+                    <ul>
+                        <li>
+                            <a title="search icon" href="#">
+                                <i class="fa-solid fa-house-chimney"></i>
+                            </a>
+                        </li>
+                        <a href="#">
+                            <li><i class="fa-solid fa-magnifying-glass searchicon" id="searchicon2"></i></li>
+                        </a>
+                        <div class="search" id="searchinput2">
+                            <input type="search" placeholder="Type something..."><i
+                                class="fa-solid fa-magnifying-glass srchicon"></i>
+                        </div>
+                        <li>
+
+                            <i class="fa-solid fa-user user_icon" id="user-lap"></i>
+                        </li>
                     </ul>
                 </div>
             </div>
-            <div class="logo"><img src="./Images/logo_final.png" alt="Logo"></div>
-        <div class="bar">
-            <i class="fa-solid fa-bars"></i>
-            <i class="fa-solid fa-xmark" id="hdcross"></i>
-        </div>
-        <div class="nav">
-            <ul>
-                <a href="#"><li>HOME</li></a>
-                <a href="#"><li>MENU</li></a>
-                <a href="#"><li>BOOK TABLE</li></a>
-                <a href="#"><li>ABOUT</li></a>
-                <a href="#"><li>CONTACT US</li></a>
-            </ul>
-        </div>
-        <div class="account">
-            <ul>
-                <a href="#">
-                    <li><i class="fa-solid fa-house-chimney"></i></li>
-                </a>
-                <a href="#">
-                    <li><i class="fa-solid fa-magnifying-glass searchicon" id="searchicon2"></i></li>
-                </a>
-                <div class="search" id="searchinput2">
-                    <input type="search" placeholder="Type something..."><i class="fa-solid fa-magnifying-glass srchicon"></i>
-                </div>
-                <button href="">
-                    <li><i class="fa-solid fa-user user_icon" id="user-lap"></i></li>
-                </a>
-            </ul> 
-        </div>
-        </div>
-    </header>
+        </header>
 
-    <div class="home">
-        <div class="main_slide">
-            <div>
-                <h1>Enjoy <span>Delicious Food</span> In your Healthy Life.</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem accusamus magnam vitae ratione ad natus ullam quasi reiciendis totam impedit quia dolore, recusandae et animi, praesentium pariatur doloremque doloribus. Aperiam?</p>
-                <button class="red_button">Visit Now <i class="fa-solid fa-arrow-right-long"></i></button>
+        <div class="home">
+            <div class="main_slide">
+                <div>
+                    <h1>Enjoy <span>Delicious Food</span> In your Healthy Life.</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem accusamus magnam vitae
+                        ratione ad natus ullam quasi reiciendis totam impedit quia dolore, recusandae et animi,
+                        praesentium
+                        pariatur doloremque doloribus. Aperiam?</p>
+                    <button class="red_button">Visit Now <i class="fa-solid fa-arrow-right-long"></i></button>
+                </div>
+                <div>
+                    <img src="./Images/front.png" alt="">
+                </div>
             </div>
-            <div>
-                <img src="./Images/front.png" alt="">
-            </div>
-        </div>
 
-        <div class="food-items">
-            <div class="item">
-                <div>
-                    <img src="/Images/food5.jpg" alt="fried rice">
-                </div>
-                <h3>Fried Rice</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, distinctio.</p>
-                <button class="white_button">See More</button>
-            </div>
-            <div class="item">
-                <div>
-                    <img src="/Images/dumplings.jpg" alt="fried rice">
-                </div>
-                <h3>Dumplings</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, distinctio.</p>
-                <button class="white_button">See More</button>
-            </div>
-            <div class="item">
-                <div>
-                    <img src="/Images/pasta.jpg" alt="fried rice">
-                </div>
-                <h3>Pasta</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, distinctio.</p>
-                <button class="white_button">See More</button>
-            </div>
-        </div>
-
-        <div class="main_slide2">
-            <div class="foodimg">
-                <img src="/Images/indian-food.jpg" alt="">
-            </div>
-            <div class="question">
-                <div>
-                    <h2>Why should you choose us?</h2>
-                </div>
-                <div>
-                    <div class="q-ans">
-                        <div><img src="/Images/food1.jpg""></div>
-                        <div><h4>Choose your favourite</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, repudiandae?</p></div>
-                    </div>
-                    <div class="q-ans">
-                        <div><img src="/Images/food2.jpg" alt=""></div>
-                        <div><h4>Choose your favourite</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, repudiandae?</p></div>
-                    </div>
-                    <div class="q-ans">
-                        <div><img src="/Images/food6.jpg" alt=""></div>
-                        <div><h4>Choose your favourite</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, repudiandae?</p></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="main_slide3">
-            <div class="fav-head">
-                <h3>Our popular food items</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, deleniti ipsam consectetur minima necessitatibus quisquam. Vitae exercitationem, alias et quod quaerat ex magnam ratione sed!</p>
-            </div>
-            <div class="fav-food">
+            <div class="food-items">
                 <div class="item">
                     <div>
-                        <img src="/Images/dumplings.jpg" alt="Dumplings">
+                        <img src="/Images/food5.jpg" alt="fried rice">
+                    </div>
+                    <h3>Fried Rice</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, distinctio.</p>
+                    <button type="button" class="white_button">See More</button>
+                </div>
+                <div class="item">
+                    <div>
+                        <img src="/Images/dumplings.jpg" alt="fried rice">
                     </div>
                     <h3>Dumplings</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, adipisci.</p>
-                    <p class="fav-price">Rs. 100</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, distinctio.</p>
+                    <button class="white_button">See More</button>
                 </div>
                 <div class="item">
                     <div>
-                        <img src="/Images/pizza.jpg" alt="Pizza">
+                        <img src="/Images/pasta.jpg" alt="fried rice">
                     </div>
-                    <h3>Pizza</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, adipisci.</p>
-                    <p class="fav-price">Rs. 160</p>
-                </div>
-                <div class="item">
-                    <div>
-                        <img src="/Images/noodles.jpg" alt="Noodles">
-                    </div>
-                    <h3>Noodles</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, adipisci.</p>
-                    <p class="fav-price">Rs. 100</p>
-                </div>
-                <div class="item">
-                    <div>
-                        <img src="/Images/biryani.jpg" alt="Biryani">
-                    </div>
-                    <h3>Biryani</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, adipisci.</p>
-                    <p class="fav-price">Rs. 200</p>
+                    <h3>Pasta</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, distinctio.</p>
+                    <button type="button" class="white_button">See More</button>
                 </div>
             </div>
-            <div class="dsgn"></div>
+
+            <div class="main_slide2">
+                <div class="foodimg">
+                    <img src="/Images/indian-food.jpg" alt="">
+                </div>
+                <div class="question">
+                    <div>
+                        <h2>Why should you choose us?</h2>
+                    </div>
+                    <div>
+                        <div class="q-ans">
+                            <div><img src="/Images/food1.jpg" alt="food image"></div>
+                            <div>
+                                <h4>Choose your favourite</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, repudiandae?</p>
+                            </div>
+                        </div>
+                        <div class=" q-ans">
+                            <div><img src="/Images/food2.jpg" alt=""></div>
+                            <div>
+                                <h4>Choose your favourite</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, repudiandae?</p>
+                            </div>
+                        </div>
+                        <div class="q-ans">
+                            <div><img src="/Images/food6.jpg" alt=""></div>
+                            <div>
+                                <h4>Choose your favourite</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, repudiandae?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main_slide3">
+                <div class="fav-head">
+                    <h3>Our popular food items</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, deleniti ipsam consectetur minima
+                        necessitatibus quisquam. Vitae exercitationem, alias et quod quaerat ex magnam ratione sed!</p>
+                </div>
+                <div class="fav-food">
+                    <div class="item">
+                        <div>
+                            <img src="/Images/dumplings.jpg" alt="Dumplings">
+                        </div>
+                        <h3>Dumplings</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, adipisci.</p>
+                        <p class="fav-price">Rs. 100</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="/Images/pizza.jpg" alt="Pizza">
+                        </div>
+                        <h3>Pizza</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, adipisci.</p>
+                        <p class="fav-price">Rs. 160</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="/Images/noodles.jpg" alt="Noodles">
+                        </div>
+                        <h3>Noodles</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, adipisci.</p>
+                        <p class="fav-price">Rs. 100</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="/Images/biryani.jpg" alt="Biryani">
+                        </div>
+                        <h3>Biryani</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, adipisci.</p>
+                        <p class="fav-price">Rs. 200</p>
+                    </div>
+                </div>
+                <div class="dsgn"></div>
+            </div>
+
+            <div class="main_slide4">
+                <div class="chef-feed">
+                    <h2>Customer <span style="color: #d38971;">Feedback</span></h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores beatae minus officia quas animi
+                        mollitia velit eius id fugiat nam. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Nam, similique. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate nam
+                        doloremque vero commodi repellendus saepe, tenetur itaque quaerat illum officia sapiente ea,
+                        rerum, quibusdam similique ratione minus tempora voluptates? Neque.</p>
+                    <div class="chef-detail">
+                        <div><img src="/Images/logo1.png" alt=""></div>
+                        <div>
+                            <h6>Food Adda</h6>
+                            <p>Web Dev</p>
+                        </div>
+                    </div>
+                    <div class="chef-vic">
+                        <div>
+                            <i class="fa-solid fa-hand-peace"></i>
+                            <h4>68</h4>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-trophy"></i>
+                            <h4>956</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="chef">
+                    <img src="/Images/chef1copy.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="letter">
+                <div class="letter-head">
+                    <h2>Subscribe <span>Newsletter</span></h2>
+                </div>
+                <div class="letter-input">
+                    <div><input type="email" placeholder="Example123@gmail.com"></div>
+                    <button class="red_button">Subscribe</button>
+                </div>
+            </div>
         </div>
 
-        <div class="main_slide4">
-            <div class="chef-feed">
-                <h2>Customer <span style="color: #d38971;">Feedback</span></h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores beatae minus officia quas animi mollitia velit eius id fugiat nam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam, similique. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate nam doloremque vero commodi repellendus saepe, tenetur itaque quaerat illum officia sapiente ea, rerum, quibusdam similique ratione minus tempora voluptates? Neque.</p>
-                <div class="chef-detail">
-                    <div><img src="/Images/logo1.png" alt=""></div>
-                    <div><h6>Food Adda</h6><p>Web Dev</p></div>
+        <div class="footer">
+            <div class="footer-1">
+                <div class="logo">
+                    <img src="/Images/logo_final.png" alt="">
                 </div>
-                <div class="chef-vic">
-                    <div>
-                        <i class="fa-solid fa-hand-peace"></i>
-                        <h4>68</h4>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                    </div>
-                    <div>
-                        <i class="fa-solid fa-trophy"></i>
-                        <h4>956</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-                    </div>
+                <div>
+                    <address>
+                        <p>Email: foodadda15@gmail.com</p>
+                        <p>Youtube: Food Adda</p>
+                        <p>Food Adda, </br>Church Street, Gurgaon </br> India</p>
+                    </address>
                 </div>
             </div>
-            <div class="chef">
-                <img src="/Images/chef1copy.jpg" alt="">
+            <div class="footer-2">
+                <img src="/Images/logo1.png" alt="">
+                <h2>Happy Eating</h2>
             </div>
         </div>
 
-        <div class="letter">
-            <div class="letter-head">
-                <h2>Subscribe <span>Newsletter</span></h2>
-            </div>
-            <div class="letter-input">
-                <div><input type="email" placeholder="Example123@gmail.com"></div>
-                <button class="red_button">Subscribe</button>
-            </div>
+        <div id="popover">
+            <p>Hi</p>
         </div>
-    </div>
-
-    <div class="footer">
-        <div class="footer-1">
-            <div class="logo">
-                <img src="/Images/logo_final.png" alt="">
-            </div>
-            <div>
-                <address>
-                    <p>Email: foodadda15@gmail.com</p>
-                    <p>Youtube: Food Adda</p>
-                    <p>Food Adda, </br>Church Street, Gurgaon </br> India</p>
-                </address>
-            </div>
-        </div>
-        <div class="footer-2">
-            <img src="/Images/logo1.png" alt="">
-            <h2>Happy Eating</h2>
-        </div>
+        <div id="background-overlay"></div>
     </div>
 
     <script src="app.js"></script>
 </body>
+
 </html>

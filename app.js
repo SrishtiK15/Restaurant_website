@@ -1,8 +1,9 @@
 const searchicon1 = document.querySelector('#searchicon1');
 const srchicon1 = document.querySelector('.srchicon');
 const search1 = document.querySelector('#searchinput1');
+const popover = document.querySelector('#popover');
 
-searchicon1.addEventListener('click', function(){
+searchicon1.addEventListener('click', function () {
     search1.style.display = 'flex';
     searchicon1.style.display = 'none';
 })
@@ -11,7 +12,7 @@ const searchicon2 = document.querySelector('#searchicon2');
 const srchicon2 = document.querySelector('.srchicon');
 const search2 = document.querySelector('#searchinput2');
 
-searchicon2.addEventListener('click', function(){
+searchicon2.addEventListener('click', function () {
     search2.style.display = 'flex';
     searchicon2.style.display = 'none';
 })
@@ -20,21 +21,23 @@ const bar = document.querySelector('.fa-bars');
 const cross = document.querySelector('#hdcross');
 const headerbar = document.querySelector('.headerbar');
 
-bar.addEventListener('click', function(){
-    setTimeout(()=>{
+bar.addEventListener('click', function () {
+    setTimeout(() => {
         cross.style.display = 'block';
-    },200);
+    }, 200);
     headerbar.style.right = '0%';
 })
 
-cross.addEventListener('click', function(){
+cross.addEventListener('click', function () {
     cross.style.display = 'none';
     headerbar.style.right = '-100%';
 })
 
-const bg_overlay = document.querySelector('.background_overlay');
-const user_icon = document.querySelector('.user_icon');
-user_icon.addEventListener('click', function(){
-    console.log('click');
+const bg_overlay = document.querySelector('#background-overlay');
+const user_icon = document.querySelector('#user-lap');
+user_icon.addEventListener('click', function () {
+    console.log('clicked');
     bg_overlay.style.display = 'block';
+    popover.style.display = 'flex';
 })
+
